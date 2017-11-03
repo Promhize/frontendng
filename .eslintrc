@@ -1,0 +1,12 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb", "plugin:flowtype/recommended"],
+  "plugins": ["flowtype", "react", "jsx-a11y", "import"],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "semi": 0
+  }
+}
