@@ -5,6 +5,7 @@ import { AppContainer } from 'react-hot-loader'
 import { BrowserRouter } from 'react-router-dom'
 import Routes from 'Routes'
 import store from 'redux/store'
+import 'tachyons/css/tachyons.css'
 
 const renderApp = Component =>
   render(

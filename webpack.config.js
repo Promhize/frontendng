@@ -33,7 +33,19 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: ['style-loader/url', 'file-loader'],
+        use: [
+          'style-loader/url',
+          'file-loader',
+          {
+            loader: 'css-loader',
+            options: {
+              importLoaders: 1,
+            },
+          },
+          {
+            loader: 'postcss-loader',
+          },
+        ],
       },
       {
         test: /\.html$/,
@@ -43,6 +55,10 @@ module.exports = {
         test: /\.jsx?$/,
         exclude: /node_modules/,
         use: ['babel-loader'],
+      },
+      {
+        test: /\.json$/,
+        loader: 'json-loader',
       },
     ],
   },
@@ -58,4 +74,5 @@ module.exports = {
     modules: ['dev', 'node_modules'],
     extensions: ['.jsx', '.js', '.json', '.css', '*'],
   },
+  node: { fs: 'empty' },
 }
