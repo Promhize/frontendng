@@ -11,12 +11,12 @@ module.exports = {
     './dev/ClientEntry.jsx',
   ],
   output: {
-    path: path.resolve(__dirname, '/public'),
-    filename: 'bundle.js',
+    path: path.resolve(__dirname, './prod'),
+    filename: 'bundle.[hash].js',
     publicPath: '/',
   },
   devServer: {
-    contentBase: path.join(__dirname, 'public'),
+    contentBase: path.join(__dirname, 'prod'),
     hot: true,
     port: 1960,
     open: false,
@@ -29,7 +29,7 @@ module.exports = {
     rules: [
       {
         test: /\.(jpe?g|png|gif|svg)$/i,
-        loader: 'file-loader?name=/public/icons/[name].[ext]',
+        loader: 'file-loader?name=/prod/icons/[name].[ext]',
       },
       {
         test: /\.css$/,
