@@ -1,7 +1,8 @@
 {
-  "name": "truckah",
+  "name": "FrontendNG",
   "version": "1.0.0",
-  "description": "Logistics App",
+  "description":
+    "Website for frontend development/design related articles and works, written and done by Nigerians",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
