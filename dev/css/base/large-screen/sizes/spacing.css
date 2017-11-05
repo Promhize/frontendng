@@ -1,0 +1,8 @@
+
+/*Spacing*/
+$sl-baseSpacingSize: calc(8px + 16 * ((100vw - 768px) / 3840));
+$sl-baseSpacingSize2: calc($sl-baseSpacingSize * 2)
+$sl-baseSpacingSize4: calc($sl-baseSpacingSize * 4)
+$sl-baseSpacingSize6: calc($sl-baseSpacingSize * 6)
+$sl-baseSpacingSize8: calc($sl-baseSpacingSize * 8)
+$sl-baseSpacingSize10: calc($sl-baseSpacingSize * 10)

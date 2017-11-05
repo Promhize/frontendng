@@ -1,0 +1,34 @@
+.slarge-t-left {
+  text-align: @ml left;
+}
+
+.slarge-t-middle {
+  text-align: @ml center;
+  font-size: @ml $sl-baseFontSizeLarge;
+}
+
+.slarge-t-right {
+  text-align: @ml right;
+}
+
+.slarge-row {
+  white-space: @ml nowrap;
+}
+
+.slarge-row > * {
+  white-space: @ml normal;
+}
+
+/* Verical Alignment */
+
+.slarge-vertical-align-middle > * {
+  vertical-align: middle;
+}
+
+.slarge-vertical-align-top > * {
+  vertical-align: top;
+}
+
+.slarge-vertical-align-bottom > * {
+  vertical-align: baseline;
+}

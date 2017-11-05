@@ -1,0 +1,55 @@
+.slarge-z-index-0 {
+  z-index: @ml 0;
+}
+
+.slarge-z-index-1 {
+  z-index: @ml 1
+}
+
+.slarge-z-index-2 {
+  z-index: @ml 2
+}
+
+.slarge-position-absolute {
+  position: @ml absolute
+}
+
+.slarge-position-fixed {
+  position: @ml fixed;
+}
+
+.slarge-top-0 {
+  top: @ml 0
+}
+
+.slarge-left-0 {
+  left: @ml 0
+}
+
+.slarge-right-0 {
+  right: @ml 0
+}
+
+.slarge-bottom-0 {
+  bottom: @ml 0
+}
+
+.slarge-left-50percent {
+  left: @ml 50%
+}
+
+.slarge-top-50percent {
+  top: @ml 50%
+}
+
+.slarge-translate-x--50percent {
+  transform: @ml translateX(-50%)
+}
+
+.slarge-translate-x--50percent-y--50percent {
+  transform: @ml translate(-50%, -50%)
+}
+
+.slarge-translate-y--50percent {
+  transform: @ml translateY(-50%)
+}

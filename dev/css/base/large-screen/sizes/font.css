@@ -1,0 +1,9 @@
+/*fonts*/
+
+$sl-baseFontSize: calc(16px + 8 * ((100vw - 768px) / 3840));
+$sl-baseFontSizeSmallest: calc($sl-baseFontSize * 0.6);
+$sl-baseFontSizeSmaller: calc($sl-baseFontSize * 0.8);
+$sl-baseFontSizeMedium: calc($sl-baseFontSize * 1.2);
+$sl-baseFontSizeLarge: calc($sl-baseFontSize * 2);
+$sl-baseFontSizeLarger: calc($sl-baseFontSize * 2.8);
+$sl-baseFontSizeLargest: calc($sl-baseFontSize * 3.2);

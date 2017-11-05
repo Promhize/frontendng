@@ -1,0 +1,133 @@
+html,
+body {
+  font-family: 'Work', sans-serif;
+  font-size: @ml 12px;
+  font-size: @ml calc(12px + 6 * ((100vw - 768px) / 2040));
+  font-weight: 400;
+  font-style: normal;
+}
+
+.icon-medium-size {
+  font-size: @ml 2rem;
+}
+
+.icon-normal-size {
+  font-size: @ml 1.4286rem;
+}
+
+.icon-small-size {
+  font-size: @ml 1.1429rem;
+}
+
+.icon-tiny-size {
+  font-size: @ml 0.8rem;
+}
+
+/*********** HELPER TYPOGRAPHY CLASSES *********/
+
+.slarge-uppercase {
+  text-transform: @ml uppercase;
+}
+
+.slarge-capitalize {
+  text-transform: @ml capitalize;
+}
+
+.slarge-underline {
+  text-decoration: @ml underline;
+}
+
+.slarge-strikethrough {
+  text-decoration: @ml line-through;
+}
+
+.slarge-bold {
+  font-weight: @ml 700;
+}
+
+.slarge-medium {
+  font-weight: @ml 500;
+}
+
+.slarge-normalweight {
+  font-weight: @ml 400;
+}
+
+.slarge-slim {
+  font-weight: @ml 200;
+}
+
+.slarge-thin {
+  font-weight: @ml 100;
+}
+
+.slarge-wide-spacing {
+  letter-spacing: @ml 2px;
+}
+
+.slarge-medium-spacing {
+  letter-spacing: @ml 1.6px;
+  word-spacing: @ml 0.125em;
+}
+
+.slarge-small-spacing {
+  letter-spacing: @ml 1.2px;
+}
+
+.slarge-neg-spacing {
+  letter-spacing: @ml -0.2px;
+}
+
+.slarge-line-height-small {
+  line-height: @ml 1.2;
+}
+
+.slarge-line-height-medium {
+  line-height: @ml 1.6;
+}
+
+.slarge-line-height-large {
+  line-height: @ml 2;
+}
+
+.slarge-alternate-font {
+  font-family: @ml 'Libre Baskerville', serif;
+}
+
+/* Font sizes */
+
+.slarge-type-extra-large {
+  font-size: @ml 8rem;
+}
+
+.slarge-type-very-large {
+  font-size: @ml 5rem;
+}
+
+.slarge-type-large {
+  font-size: @ml 3.4rem;
+}
+
+.slarge-type-low-large {
+  font-size: @ml 2.6rem;
+}
+
+.slarge-type-moremedium {
+  font-size: @ml 1.8rem;
+}
+
+.slarge-type-medium {
+  font-size: @ml 1.4rem;
+}
+
+.slarge-type-normal {
+  font-size: @ml 1.2rem;
+}
+
+.slarge-type-small {
+  font-size: @ml 0.96rem;
+}
+
+.slarge-type-very-small {
+  font-size: @ml 0.8rem;
+}

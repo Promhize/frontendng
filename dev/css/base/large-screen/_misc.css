@@ -1,0 +1,97 @@
+*,
+ul,
+figure {
+  box-sizing: border-box;
+
+  padding: 0px;
+
+  margin: 0px;
+
+  border: 0;
+
+  font: inherit;
+
+  vertical-align: baseline;
+
+  background-size: cover;
+
+  background-repeat: no-repeat;
+
+  background-position: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+address {
+  font-style: normal;
+}
+
+a,
+img {
+  border: none;
+}
+
+sup,
+sub {
+  font-size: 0.5rem;
+
+  transform: translateX(100%);
+}
+
+a {
+  text-decoration: none;
+}
+
+img,
+video {
+  max-width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+button,
+a {
+  background: none;
+
+  border: none;
+
+  color: inherit;
+
+  font-family: inherit;
+}
+
+input {
+  background: none;
+
+  border: none;
+
+  text-align: inherit;
+
+  font-size: inherit;
+
+  font-family: inherit;
+
+  color: inherit;
+
+  outline: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.header-font {
+  margin: 0px;
+}
+
+/* MISCELLANEOUS */
+
+.relative {
+  position: relative;
+}

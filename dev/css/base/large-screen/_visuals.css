@@ -1,0 +1,280 @@
+.slarge-border-width-1px {
+  border-width: 1px;
+}
+
+.slarge-border-width-2px {
+  border-width: 2px;
+}
+
+.slarge-border-width-3px {
+  border-width: 3px;
+}
+
+.slarge-border-width-4px {
+  border-width: 4px;
+}
+
+.slarge-border-right-width-1px {
+  border-right-width: 1px;
+}
+
+.slarge-border-bottom-width-1px {
+  border-bottom-width: 1px;
+}
+
+/* Border color */
+
+.slarge-border-color-white {
+  border-color: #fff;
+}
+
+.slarge-border-color-dark {
+  border-color: #000;
+}
+
+.slarge-border-color-light-grey {
+  border-color: #eee;
+}
+
+.slarge-border-color-blue {
+  border-color: #4c84ff;
+}
+
+.slarge-border-style-solid {
+  border-style: solid;
+}
+
+.slarge-border-1px-dotted {
+  border: @ml 1px dotted #f0f0f4;
+}
+
+.slarge-border-1px-bottom {
+  border-bottom: @ml 1px solid #f0f0f4;
+}
+
+.slarge-border-bottom-width-1 {
+  border-bottom-width: @ml 1px;
+}
+
+.slarge-border-1px-left {
+  border-left: @ml 1px solid #f0f0f4;
+}
+
+.slarge-border-1px-right {
+  border-right: @ml 1px solid #f0f0f4;
+}
+
+.slarge-border-1px-top {
+  border-top: @ml 1px solid #f0f0f4;
+}
+
+.slarge-border-1px-bottom {
+  border-bottom: @ml 1px solid #f0f0f4;
+}
+
+.dsktp-largeborder {
+  border: @ml 4px solid;
+}
+
+.dsktp-largeborder-dotted {
+  border: @ml 4px dashed;
+}
+
+.dsktp-largeborder-bottom {
+  border-bottom: @ml 4px solid;
+}
+
+.dsktp-largeborder-left {
+  border-left: @ml 4px solid;
+}
+
+.dsktp-largeborder-right {
+  border-right: @ml 4px solid;
+}
+
+.dsktp-largeborder-top {
+  border-top: @ml 4px solid;
+}
+
+.dsktp-mediumborder {
+  border-width: @ml 2px;
+}
+
+.dsktp-border-grey {
+  border-color: @ml #f0f0f4;
+}
+
+.dsktp-border-dark-grey {
+  border-color: @ml #d0d0d0;
+}
+
+.dsktp-border-blue {
+  border-color: @ml #448dde;
+}
+
+.dsktp-border-dark {
+  border-color: @ml #404040;
+}
+
+.dsktp-border-red {
+  border-color: @ml #e82110;
+}
+
+.dsktp-border-green {
+  border-color: @ml #64c073;
+}
+
+.slarge-border-radius-0-2 {
+  border-radius: @ml 0.2rem;
+}
+
+.slarge-border-radius-2 {
+  border-radius: @ml 2rem;
+}
+
+@media (max-width: 768px) {
+  .display-none {
+    display: none;
+  }
+
+  .o-hidden {
+    overflow: hidden;
+  }
+
+  .o-y-hidden {
+    overflow-y: hidden;
+  }
+
+  .not-visible {
+    visibility: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .slarge-display-none {
+    display: none;
+  }
+
+  .slarge-o-hidden {
+    overflow: hidden;
+  }
+
+  .slarge-o-y-hidden {
+    overflow-y: hidden;
+  }
+
+  .slarge-not-visible {
+    visibility: hidden;
+  }
+}
+
+.half-transparent {
+  opacity: 0.5;
+}
+
+.nearly-transparent {
+  opacity: 0.1;
+}
+
+.twenty-transparent {
+  opacity: 0.2;
+}
+
+.slightly-transparent {
+  opacity: 0.88;
+}
+
+.small-box-shadow {
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05), -1px 0px 2px rgba(0, 0, 0, 0.05);
+}
+
+.slarge-box-shadow-large {
+  box-shadow: @ml 2px 2px 15px rgba(0, 0, 0, 0.05);
+}
+
+.slarge-box-shadow-bottom {
+  box-shadow: @ml 0px 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.slarge-circle {
+  border-radius: @ml 50%;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.slarge-icon-square-very-small {
+  height: @ml 1.4rem;
+  width: @ml 1.4rem;
+}
+
+.slarge-icon-square-small {
+  height: @ml 2rem;
+  width: @ml 2rem;
+}
+
+.slarge-icon-square-normal {
+  height: 3rem;
+  width: 3rem;
+}
+
+.slarge-icon-square-medium {
+  height: 4rem;
+  width: 4rem;
+}
+
+.slarge-icon-square-large {
+  height: 6rem;
+  width: 6rem;
+}
+
+
+.icon-square-normal {
+  height: 3rem;
+  width: 3rem;
+}
+
+.icon-square-medium {
+  height: 4rem;
+  width: 4rem;
+}
+
+.icon-square-large {
+  height: 6rem;
+  width: 6rem;
+}
+
+.transition-short {
+  transition: 0.2s;
+}
+
+.emerge:hover {
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.slarge-transition-short {
+  transition: @ml all 0.2s;
+}
+
+.slarge-transition-normal {
+  transition: @ml all 0.4s;
+}
+
+.slarge-transition-long {
+  transition: @ml all 1s;
+}
+
+.vibrate:hover {
+  animation: vibrate 0.1s ease-out 3;
+}
+
+@keyframes vibrate {
+  0% {
+    transform: translateX(-0.5px);
+  }
+
+  100% {
+    transform: translateX(1px);
+  }
+}

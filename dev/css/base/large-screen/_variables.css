@@ -1,0 +1,38 @@
+$dimension: 15px;
+
+$1g: calc(100vw / 48);
+
+$accentcolor: #b6d73e;
+
+$contrastcolor: #1c63b5;
+
+$color: #33383e;
+
+$greycolor: #e6e6e6;
+
+$errcolor: #dba089;
+
+$t-dark: #000;
+
+$t-light: #fff;
+
+$t-altdark: #34454e;
+
+$ms: (max-width: 768px);
+
+$msplus: (max-width: 768px);
+
+$mm: (min-width: 481px) and (max-width: 768px);
+
+$ml: (min-width: 769px);
+$sl: (min-width: 769px);
+
+$mmplus: (min-width: 481px);
+
+$mmmin: (max-width: 768px);
+
+$mainborder: 5px;
+
+$line: 3px;
+
+$divider: 1px;

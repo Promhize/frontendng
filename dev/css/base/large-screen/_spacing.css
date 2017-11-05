@@ -1,0 +1,311 @@
+.slarge-padding0125 {
+  padding: @ml 0.125rem;
+}
+
+.slarge-padding025 {
+  padding: @ml 0.25rem;
+}
+
+.slarge-padding {
+  padding: @ml 1rem;
+}
+
+.slarge-padding05 {
+  padding: @ml 0.5rem;
+}
+
+.slarge-padding2 {
+  padding: @ml 2rem;
+}
+
+.slarge-padding4 {
+  padding: @ml 4rem;
+}
+
+.slarge-padding-h05 {
+  padding-left: @ml 0.5rem;
+}
+
+.slarge-padding-h05 {
+  padding-right: @ml 0.5rem;
+}
+
+.slarge-padding-h {
+  padding-left: @ml 1rem;
+}
+
+.slarge-padding-h {
+  padding-right: @ml 1rem;
+}
+
+.slarge-padding-h2 {
+  padding-left: @ml 2rem;
+}
+
+.slarge-padding-h2 {
+  padding-right: @ml 2rem;
+}
+
+.slarge-padding-h4 {
+  padding-left: @ml 4rem;
+}
+
+.slarge-padding-h4 {
+  padding-right: @ml 4rem;
+}
+
+.slarge-padding-h6 {
+  padding-left: @ml 6rem;
+}
+
+.slarge-padding-h6 {
+  padding-right: @ml 6rem;
+}
+
+.slarge-padding-v05 {
+  padding-top: @ml 0.5rem;
+}
+
+.slarge-padding-v05 {
+  padding-bottom: @ml 0.5rem;
+}
+
+.slarge-padding-v {
+  padding-top: @ml 1rem;
+}
+
+.slarge-padding-v {
+  padding-bottom: @ml 1rem;
+}
+
+.slarge-padding-v1-5 {
+  padding-top: @ml 1.5rem;
+}
+
+.slarge-padding-v1-5 {
+  padding-bottom: @ml 1.5rem;
+}
+
+.slarge-padding-v2 {
+  padding-top: @ml 2rem;
+}
+
+.slarge-padding-v2 {
+  padding-bottom: @ml 2rem;
+}
+
+.slarge-padding-v4 {
+  padding-top: @ml 4rem;
+}
+
+.slarge-padding-v4 {
+  padding-bottom: @ml 4rem;
+}
+
+.slarge-padding-h-right05 {
+  padding-right: @ml 0.5rem;
+}
+
+.slarge-padding-h-right {
+  padding-right: @ml 1rem;
+}
+
+.slarge-padding-h-right2 {
+  padding-right: @ml 2rem;
+}
+
+.slarge-padding-h-right4 {
+  padding-right: @ml 4rem;
+}
+
+.slarge-padding-h-left05 {
+  padding-left: @ml 0.5rem;
+}
+
+.slarge-padding-h-left {
+  padding-left: @ml 1rem;
+}
+
+.slarge-padding-h-left2 {
+  padding-left: @ml 2rem;
+}
+
+.slarge-padding-h-left4 {
+  padding-left: @ml 4rem;
+}
+
+.slarge-padding-v-bottom05 {
+  padding-bottom: @ml 0.5rem;
+}
+
+.slarge-padding-v-bottom {
+  padding-bottom: @ml 1rem;
+}
+
+.slarge-padding-v-bottom2 {
+  padding-bottom: @ml 2rem;
+}
+
+.slarge-padding-v-bottom4 {
+  padding-bottom: @ml 4rem;
+}
+
+.slarge-padding-v-top05 {
+  padding-top: @ml 0.5rem;
+}
+
+.slarge-padding-v-top {
+  padding-top: @ml 1rem;
+}
+
+.slarge-padding-v-top2 {
+  padding-top: @ml 2rem;
+}
+
+.slarge-padding-v-top4 {
+  padding-top: @ml 4rem;
+}
+
+.slarge-margin {
+  margin: @ml 1rem;
+}
+
+.slarge-margin2 {
+  margin: @ml 2rem;
+}
+
+.slarge-margin4 {
+  margin: @ml 4rem;
+}
+
+.slarge-margin-h05 {
+  margin-left: @ml 0.5rem;
+}
+
+.slarge-margin-h05 {
+  margin-right: @ml 0.5rem;
+}
+
+.slarge-margin-h {
+  margin-left: @ml 1rem;
+}
+
+.slarge-margin-h {
+  margin-right: @ml 1rem;
+}
+
+.slarge-margin-h2 {
+  margin-left: @ml 2rem;
+}
+
+.slarge-margin-h2 {
+  margin-right: @ml 2rem;
+}
+
+.slarge-margin-h4 {
+  margin-left: @ml 4rem;
+}
+
+.slarge-margin-h4 {
+  margin-right: @ml 4rem;
+}
+
+.slarge-margin-v05 {
+  margin-top: @ml 0.5rem;
+}
+
+.slarge-margin-v05 {
+  margin-bottom: @ml 0.5rem;
+}
+
+.slarge-margin-v {
+  margin-top: @ml 1rem;
+}
+
+.slarge-margin-v {
+  margin-bottom: @ml 1rem;
+}
+
+.slarge-margin-v2 {
+  margin-top: @ml 2rem;
+}
+
+.slarge-margin-v2 {
+  margin-bottom: @ml 2rem;
+}
+
+.slarge-margin-v4 {
+  margin-top: @ml 4rem;
+}
+
+.slarge-margin-v4 {
+  margin-bottom: @ml 4rem;
+}
+
+.slarge-margin-v6 {
+  margin-top: @ml 6rem;
+}
+
+.slarge-margin-v6 {
+  margin-bottom: @ml 6rem;
+}
+
+.slarge-margin-h-right {
+  margin-right: @ml 1rem;
+}
+
+.slarge-margin-h-right2 {
+  margin-right: @ml 2rem;
+}
+
+.slarge-margin-h-right4 {
+  margin-right: @ml 4rem;
+}
+
+.slarge-margin-h-left {
+  margin-left: @ml 1rem;
+}
+
+.slarge-margin-h-left2 {
+  margin-left: @ml 2rem;
+}
+
+.slarge-margin-h-left4 {
+  margin-left: @ml 4rem;
+}
+
+.slarge-margin-v4 {
+  margin-bottom: @ml 4rem;
+}
+
+.slarge-margin-v-bottom05 {
+  margin-bottom: @ml 0.5rem;
+}
+
+.slarge-margin-v-bottom {
+  margin-bottom: @ml 1rem;
+}
+
+.slarge-margin-v-bottom2 {
+  margin-bottom: @ml 2rem;
+}
+
+.slarge-margin-v-bottom4 {
+  margin-bottom: @ml 4rem;
+}
+
+.slarge-margin-v-top {
+  margin-top: @ml 1rem;
+}
+
+.slarge-margin-v-top2 {
+  margin-top: @ml 2rem;
+}
+
+.slarge-margin-v-top4 {
+  margin-top: @ml 4rem;
+}
+
+.slarge-margin-v-top6 {
+  margin-top: @ml 6rem;
+}
