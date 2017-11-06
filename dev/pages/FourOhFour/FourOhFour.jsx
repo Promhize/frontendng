@@ -1,5 +1,5 @@
 import React from 'react'
-import 'css/fourohfour.css'
+import './fourohfour.css'
 
 const FourOhFour = () => (
   <div>

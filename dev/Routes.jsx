@@ -1,11 +1,12 @@
 import React from 'react'
-import { Route, Switch } from 'react-router'
+import { Route, Switch, Redirect } from 'react-router'
 
 import FourOhFour from 'pages/FourOhFour'
 
 const Routes = () => (
   <Switch>
-    <Route path="/" component={FourOhFour} />
+    <Route path="/404" component={FourOhFour} />
+    <Route path="/" render={() => <Redirect to="/404" />} />
   </Switch>
 )
 
